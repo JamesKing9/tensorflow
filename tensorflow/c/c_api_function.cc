@@ -79,6 +79,7 @@ string NodeNameMapping::Normalize(string name) {
   for (int i = 0; i < n; ++i) {
     char c = name[i];
     if (isalnum(c)) {
+        
       if (isupper(c)) {
         name[i] = tolower(c);
       }
